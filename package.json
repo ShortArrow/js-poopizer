@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "make poop from every things",
   "bin": {
-    "ps-poopizer": "bin/app.js"
+    "ps-poopizer": "bin/app"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -18,6 +18,7 @@
   "author": "ShortArrow",
   "license": "MIT",
   "dependencies": {
+    "inquirer": "^8.2.2",
     "yargs": "^17.4.1"
   }
 }
